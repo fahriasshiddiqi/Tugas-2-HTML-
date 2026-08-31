@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML</title>
+</head>
+<body>
+    <!-- bagian kepala(judul utama) dari body -->
+    <header>
+        <h1>Coding Club SMKN 1 Subang.</h1>
+        <p>Belajar, Berkarya, dan Berkembang Bersama Teknologi.</p>
+
+        <!-- navigasi untuk mengarah pada isi -->
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#kegiatan">Kegiatan</a>
+            <a href="#jadwal">Jadwal</a>
+            <a href="#daftar">Daftar</a>
+        </nav>
+    </header>
+    <!-- isi utama dari body -->
+    <main>
+        <!-- beranda yang berisi pembukaan dari coding club -->
+        <section id="beranda">
+            <h2>Belajar Coding Mulai dari Sekarang.</h2>
+            <p><b>Coding Club</b> adalah wadah atau komunitas
+               tempat bagi siapa saja untuk belajar menulis kode
+               dan mengembangkan keterampilan pemrograman komputer bersama-sama secara menyenangkan.</p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhn2nCHDxln8BM3hhsk4rDhdRaCcJSDZ1woW3nvT1Flg&s=10" alt="program" width="200px">
+             <br>
+             <a href="#daftar">Daftar Sekarang</a>
+        </section>
+
+        <!-- penjelasan lebih dalam tentang coding club -->
+        <section id="tentang"> 
+            <h2>Tentang Coding Club</h2>
+            <p><b>Coding Club</b> adalah wadah atau kegiatan ekstrakurikuler
+                bagi siapa saja yang ingin belajar dasar-dasar pemrograman komputer.
+                Tujuan utama dari kegiatan ini adalah mengenalkan dunia teknologi secara
+                menyenangkan dan melatih cara berpikir logis. Di dalam klub ini, peserta
+                diajak untuk tidak sekadar memakai gawai atau aplikasi, tetapi juga belajar
+                merancang dan membuat program mereka sendiri dari nol.</p>
+            <p>Manfaat mengikuti Coding Club sangat besar untuk masa depan 
+               peserta. Kegiatan ini melatih kemampuan memecahkan masalah dan mengasah
+               kreativitas saat mereka menyusun kode atau memperbaiki kesalahan sistem.
+               Selain itu, keterampilan pemrograman kini menjadi keahlian yang sangat dicari di dunia kerja modern, sehingga peserta mendapat bekal berharga untuk menghadapi perkembangan zaman digital.</p>
+        </section>
+
+        <!-- list berupa bullet yg berisi materi yg dipelajari -->
+        <section>
+            <h2>Apa yang Dipelajari</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Pemrograman Web</li>
+                <li>Git dan GitHub</li>
+            </ul>
+        </section>
+
+        <!-- list berurutan yg berisi alur mengikuti coding club -->
+        <section>
+            <h2>Alur Mengikuti Coding Club</h2>
+            <ol>
+                <li>Mengisi formulir pendaftaran</li>
+                <li>Mengikuti pertemuan pertama</li>
+                <li>Belajar dasar pemrograman</li>
+                <li>Membuat proyek sederhana</li>
+                <li>Presentasi hasil proyek</li>
+            </ol>
+        </section>
+
+        <!-- berisi kumpulan kegiatan apa saja yang dilakukan  -->
+        <section id="kegiatan">
+            <h2>Kegiatan Coding Club</h2>
+            <article>
+                <h3>Belajar HTML</h3>
+                <p>Belajar HTML adalah proses memahami bahasa markup dasar untuk merancang dan menyusun kerangka struktur halaman web.</p>
+            </article>
+            <article>
+                <h3>Membuat Website</h3>
+                <p>Membuat website adalah proses merancang, membangun, dan mempublikasikan halaman digital ke internet agar bisa diakses oleh pengguna global.</p>
+            </article>
+            <article>
+                <h3>Project Showcase.</h3>
+                <p>project showcase adalah ringkasan atau penjelasan tertulis yang menyajikan karya, produk, atau proyek yang telah selesai dibuat agar mudah dipahami oleh audiens, klien, atau perekrut.</p>
+            </article>
+        </section>
+
+        <!-- tabel yg berisi jadwal kegiatan berupa hari,kegiatan,waktu,dan tempat  -->
+        <section id="jadwal">
+            <h2>Jadwal Kegiatan</h2>
+            <table border="1">
+                <tr>
+                    <th>Hari</th>
+                    <th>Kegiatan</th>
+                    <th>Jam</th>
+                    <th>Tempat</th>
+                </tr>
+                <tr>
+                    <td>Senin</td>
+                    <td>Belajar HTML</td>
+                    <td>15.00 - 16.30</td>
+                    <td>Lab RPL</td>
+                </tr>
+                <tr>
+                    <td>Rabu</td>
+                    <td>Pemrograman Web</td>
+                    <td>15.00 - 16.30</td>
+                    <td>Lab RPL</td>
+                </tr>
+                <tr>
+                    <td>Jumat</td>
+                    <td>Project Coding</td>
+                    <td>13.30 - 15.00</td>
+                    <td>Lab RPL</td>
+                </tr>
+            </table>
+        </section>
+
+            <br>
+
+        <!-- formulir pendaftaran yg berisi nama,email,kelas,jenis kelamin,minat,dan alasan -->
+        <section id="daftar">
+            <h2>Form Pendaftaran</h2>
+            <form>
+                <label>Nama:</label>
+                <input type="text" name="nama" placeholder="Masukkan Nama" required>
+
+                <br> <br>
+
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="nama@gmail.com" required>
+
+                <br><br>
+
+                <label>kelas:</label>
+                <select name="kelas" required>
+                    <option>X RPL 1</option>
+                    <option>X RPL 2</option>
+                    <option>XI RPL 1</option>
+                    <option>XI RPL 2</option>
+                </select>
+
+                <br><br>
+
+                <label>Jenis Kelamin</label>
+                <input type="radio" name="jk" value="L"> Laki-Laki 
+                <input type="radio" name="jk" value="P"> Perempuan 
+
+                <br> <br>
+
+                <label>Minat yang ingin dipelajari:</label>
+                <input type="checkbox" name="myip" value="Web Development"> Web Development
+                <input type="checkbox" name="myip" value="Game Development"> Game Development
+                <input type="checkbox" name="myip" value="UI/UX"> UI/UX
+                <input type="checkbox" name="myip" value="Mobile Development."> Mobile Development
+
+                <br> <br>
+
+                <label>Alasan ingin bergabung:</label>
+                <textarea name="alasan" placeholder="alasan" rows="1" ></textarea>
+
+                <br><br>
+
+                <button type="submit">Daftar</button>
+                <button type="reset">Reset</button>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Coding Club SMKN 1 Subang</p>
+        <p>Rekayasa Perangkat Lunak</p>
+        <p>© 2026 Coding Club SMKN 1 Subang</p>
+    </footer>
+
+</body>
+</html>
